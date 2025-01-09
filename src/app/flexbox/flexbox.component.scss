@@ -35,7 +35,7 @@ svg {
     border: none;
     cursor: pointer;
     border-radius: 8px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cafenubank {
@@ -46,7 +46,7 @@ svg {
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    
+
 }
 
 p {
@@ -65,40 +65,47 @@ p {
     font-size: 20px;
     margin: 0;
 }
-.texto-caixas{
+
+.texto-caixas {
     color: black;
 }
-.links{
+
+.links {
     color: rgb(185, 80, 185);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.carousel{
+
+.carousel {
     width: 300px;
     height: 300px;
-   margin: 10px;
-   border-radius: 20px;
-   box-sizing: border-box;
-   border: 3px solid rgb(235, 231, 231);
-   text-align: center;
-   display: inline-block;
-   vertical-align: top; 
+    margin: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 3px solid rgb(235, 231, 231);
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
 }
-.titulo{
+
+.titulo {
     color: black;
 }
-.next{
+
+.next {
     border: none;
     cursor: pointer;
     height: 40px;
     color: rgb(59, 59, 59);
     border-radius: 8px;
     font-size: 20px;
-    font-family:'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif;
 }
-h2{
+
+h2 {
     color: white;
     font-size: 25px;
 }
+
 .pai {
     padding-left: 40px;
     color: white;
