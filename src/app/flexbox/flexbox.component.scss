@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+nav ul {
+    justify-content: space-around;
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+}
+
+svg {
+    margin-right: 40px;
+}
+
+.btn-login {
+    margin-left: 1000px;
+    background-color: white;
+    font-size: 20px;
+    color: purple;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.cafenubank {
+    background-image: url(imagens/1734980862-casal-cafeteria-usando-aplicativo-nubank-ptbr-hero-home-desktop-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+p {
+    color: white;
+}
+
+.textoprincipal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin: 0px 0px 16px;
+    border: 0px 0px 16px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+.texto-caixas{
+    color: black;
+}
+.links{
+    color: rgb(185, 80, 185);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel{
+    width: 300px;
+    height: 300px;
+   margin: 10px;
+   border-radius: 20px;
+   box-sizing: border-box;
+   border: 3px solid rgb(235, 231, 231);
+   text-align: center;
+   display: inline-block;
+   vertical-align: top; 
+}
+.titulo{
+    color: black;
+}
+.next{
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    color: rgb(59, 59, 59);
+    border-radius: 8px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+}
+h2{
+    color: white;
+    font-size: 25px;
+}
+.pai {
+    padding-left: 40px;
+    color: white;
+}

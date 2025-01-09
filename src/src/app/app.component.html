@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body class="container-flex">
+  <div [style.backgroundColor]="bgColor">
+    <div [style.color]=color>
+      <div>
+        <h1>{{message}}</h1>
+        <h2>{{soma}}</h2>
+        <img [src]="imagemUrl" alt="champions">
+        <img src="https://picsum.photos/seed/picsum/200/300" alt="champions">
+      </div>
+
+      <br>
+      <div>
+        <button *ngIf="isButtonDisabled" style="background-color: black;">
+          {{ isButtonDisabled ? 'Ativar botão' : 'Desativar botão' }}
+        </button>
+      </div>
+
+      <br>
+      <div>
+        <button (click)='clicar()'>Enviar</button>
+      </div>
+
+      <br>
+      <div>
+        <input type="text" [(ngModel)]="username" placeholder="Digite">
+        <p>Nome de usuário digitado: {{username}}</p>
+      </div>
+
+      <div>
+        <button (click)='Visibilidade()'>Alternar</button>
+        <p *ngIf="isVisible">Este texto pode ser mostrado ou ocultado.</p>
+      </div>
+
+      <div class="teste">
+        <label for="NumeroInical">Número inicial</label>
+        <input type="number" id="iniciaValue" [(ngModel)]="NumeroInicial" b>
+
+      </div>
+      <br>
+      <div>
+        <label for="tarefa">Tarefa: </label>
+        <input type="text" id="nomeTarefa" [(ngModel)]="nomeTarefa" placeholder="Digite uma tarefa">
+        <button (click)="addTarefas()">Adicionar</button>
+
+        <ul>
+          <li *ngFor="let tarefa of tarefas">{{tarefas}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box1">1</div>
+      <div class="box2">2</div>
+      <div class="box3">3</div>
+      
+    </div> -->
+    <app-flexbox></app-flexbox>
